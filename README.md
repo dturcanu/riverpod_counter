@@ -1,16 +1,7 @@
-# riverpod_1
+# riverpod_counter
 
-A new Flutter project.
+Progetto che integra Riverpod come state manager.
+All'interno c'è uno stato StateProvider chiamato counterProvider e che stampa il suo valore nella Home Page.
+Ci sono altre due pagine "AddCounterPage" e "RemoveCounterPage" che si occupano singolarmente di aggiungere o rimuovere unità da questo stato condiviso.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Con questa semplice dimostrazione si può vedere quanto è facile condividere e modificare uno stato tra diverse pagine o componenti.
